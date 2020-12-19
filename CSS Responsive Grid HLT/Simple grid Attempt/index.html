@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head> // 
+    <title>CSS Grid</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Positioning Eg 1 RWD</title>
+    <link href="style.css" rel="stylesheet" type="text/css" >
+    <style>
+
+    .wrapper{
+        display:grid;
+        grid-template-columns: 25% 50%;
+        grid-auto-rows:minmax(100px, auto);
+        grid-gap:1em;
+        
+    }
+
+
+    .wrapper > div{
+                 background:#E7D2CC;
+                 padding: 1em;
+             }
+
+             .wrapper>div:nth-child(odd) {
+              background:#DCD2CC; 
+            } 
+
+          
+    </style>
+</head>
+<body>
+  <div class="wrapper">
+      <div class="box 1">Box A </div>
+      <div class="box 2">Box B</div>
+      <div class="box 3">Box C</div>
+      <div class="box 4">Box D</div>
+      <div class="box 5">Box E</div>
+
+  </div>
+
+</nav>
+
+  <!-- My interactive page refuses to open. ive done absolutly everything! it keeps saying the file is corrupt but all of the other tasks open :( )-->
+</body>
+</html>
+
